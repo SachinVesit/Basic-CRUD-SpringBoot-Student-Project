@@ -1,7 +1,7 @@
-package com.darkhorse.config;
+package com.example.config;
 
-import static com.darkhorse.model.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
-import static com.darkhorse.model.Constants.SIGNING_KEY;
+import static com.example.model.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
+import static com.example.model.Constants.SIGNING_KEY;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import com.darkhorse.model.User;
+import com.example.model.User;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

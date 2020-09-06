@@ -1,9 +1,9 @@
-package com.darkhorse.repository;
+package com.example.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.darkhorse.model.User;
+import com.example.model.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Integer> {

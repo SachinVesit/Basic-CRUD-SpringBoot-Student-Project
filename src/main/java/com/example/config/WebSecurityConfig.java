@@ -1,4 +1,4 @@
-package com.darkhorse.config;
+package com.example.config;
 
 import javax.annotation.Resource;
 

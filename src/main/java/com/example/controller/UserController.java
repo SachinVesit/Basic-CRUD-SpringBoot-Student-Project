@@ -1,4 +1,4 @@
-package com.darkhorse.controller;
+package com.example.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.darkhorse.model.ApiResponse;
-import com.darkhorse.model.User;
-import com.darkhorse.model.UserDto;
-import com.darkhorse.service.UserService;
+import com.example.model.ApiResponse;
+import com.example.model.User;
+import com.example.model.UserDto;
+import com.example.service.UserService;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

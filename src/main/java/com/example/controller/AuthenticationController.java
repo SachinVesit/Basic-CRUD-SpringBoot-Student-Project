@@ -1,4 +1,4 @@
-package com.darkhorse.controller;
+package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.darkhorse.config.JwtTokenUtil;
-import com.darkhorse.model.ApiResponse;
-import com.darkhorse.model.AuthToken;
-import com.darkhorse.model.LoginUser;
-import com.darkhorse.model.User;
-import com.darkhorse.service.UserService;
+import com.example.config.JwtTokenUtil;
+import com.example.model.ApiResponse;
+import com.example.model.AuthToken;
+import com.example.model.LoginUser;
+import com.example.model.User;
+import com.example.service.UserService;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

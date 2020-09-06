@@ -1,4 +1,4 @@
-package com.darkhorse.model;
+package com.example.model;
 
 import java.util.List;
 

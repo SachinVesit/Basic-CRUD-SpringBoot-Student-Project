@@ -1,9 +1,9 @@
-package com.darkhorse.service;
+package com.example.service;
 
 import java.util.List;
 
-import com.darkhorse.model.User;
-import com.darkhorse.model.UserDto;
+import com.example.model.User;
+import com.example.model.UserDto;
 
 public interface UserService {
 

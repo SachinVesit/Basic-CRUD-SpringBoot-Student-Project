@@ -1,4 +1,4 @@
-package com.darkhorse.config;
+package com.example.config;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.SignatureException;
@@ -16,8 +16,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import static com.darkhorse.model.Constants.HEADER_STRING;
-import static com.darkhorse.model.Constants.TOKEN_PREFIX;
+import static com.example.model.Constants.HEADER_STRING;
+import static com.example.model.Constants.TOKEN_PREFIX;
 
 import java.io.IOException;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.darkhorse.model;
+package com.example.model;
 
 public class ApiResponse<T> {
 
