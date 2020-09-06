@@ -1,4 +1,4 @@
-package com.darkhorse.service.impl;
+package com.example.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,10 +15,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.darkhorse.model.User;
-import com.darkhorse.model.UserDto;
-import com.darkhorse.repository.UserRepository;
-import com.darkhorse.service.UserService;
+import com.example.model.User;
+import com.example.model.UserDto;
+import com.example.repository.UserRepository;
+import com.example.service.UserService;
 
 @Service(value = "userService")
 public class UserServiceImpl implements UserDetailsService, UserService {
