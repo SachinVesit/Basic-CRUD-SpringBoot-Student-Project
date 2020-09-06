@@ -1,0 +1,17 @@
+//Pass this value first to check app 
+// username and employee code are unique in this app 
+
+
+{
+    "username": "demo",
+    "password": "password",
+    "fullName": "demo",
+    "email": "demo@gmail.com",
+    "employeeCode": "DHCS2",
+    "department": "Developer",
+    "roles": [
+        {
+            "authority": "REQUESTOR"
+        }
+    ]
+}
